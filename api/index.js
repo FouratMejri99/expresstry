@@ -11,7 +11,7 @@ app.use(express.json());
 app.use('/api', productRoutes);
 
 // Start the server
-const PORT = 3003;
+const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
